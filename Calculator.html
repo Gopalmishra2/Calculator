@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+
+</head>
+<body>
+        <script src="Calculator.js"></script>
+    <div class="calculator">
+
+    <div class="display">
+        <input type="text"  id="input"placeholder="0" readonly>
+    </div>
+
+    <div class="buttons">
+<button class="grey" onclick="handleClick('AC')">AC</button>
+<button class="operator" onclick="handleClick('DEL')">⌫</button>
+<button class="operator" onclick="handleClick('%')">%</button>
+<button class="operator" onclick="handleClick('/')">÷</button>
+
+<button onclick="handleClick('7')">7</button>
+<button onclick="handleClick('8')">8</button>
+<button onclick="handleClick('9')">9</button>
+<button class="operator" onclick="handleClick('*')">×</button>
+
+<button onclick="handleClick('4')">4</button>
+<button onclick="handleClick('5')">5</button>
+<button onclick="handleClick('6')">6</button>
+<button class="operator" onclick="handleClick('-')">−</button>
+
+<button onclick="handleClick('1')">1</button>
+<button onclick="handleClick('2')">2</button>
+<button onclick="handleClick('3')">3</button>
+<button class="operator" onclick="handleClick('+')">+</button>
+
+<button class="zero" onclick="handleClick('0')">0</button>
+<button onclick="handleClick('.')">.</button>
+<button class="equal" onclick="handleClick('=')">=</button>
+    </div>
+
+</div>
+
+</body>
+</html>
