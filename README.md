@@ -1,6 +1,5 @@
 # Calculator App
-
-A simple calculator built using HTML, CSS, and JavaScript.
+Simple Calculator Application built using HTML, CSS, and JavaScript with AC, DEL, and arithmetic operations.
 
 ## Features
 - Addition
@@ -11,9 +10,12 @@ A simple calculator built using HTML, CSS, and JavaScript.
 - DEL (Delete Last Character)
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
+html
+css
+javascript
+calculator
+frontend
+web-development
 
 ## Author
 Gopal Mishra
